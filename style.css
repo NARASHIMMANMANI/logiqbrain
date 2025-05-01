@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  background-color: #1a1138;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #2b1055, #7597de);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero h1 span {
+  font-size: 3rem;
+  background: linear-gradient(90deg, #00fff7, #ff00c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 15px 30px;
+  background: #00fff7;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff00c8;
+  color: white;
+}
+
+/* Glass Section */
+.glass-section {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 60px auto;
+  padding: 60px 20px;
+  max-width: 1000px;
+  border-radius: 20px;
+}
+
+/* Parallax */
+.parallax {
+  background: url('https://images.unsplash.com/photo-1581090700227-1e8e5f1079c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center center / cover no-repeat fixed;
+  padding: 100px 40px;
+}
+
+.parallax h2 {
+  color: #00fff7;
+  margin-bottom: 40px;
+}
+
+/* Cards */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border: 1px solid #00fff7;
+  width: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.03);
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+form input, form textarea {
+  padding: 15px;
+  background: #222;
+  color: #fff;
+  border: 1px solid #00fff7;
+  border-radius: 8px;
+}
+
+form button {
+  padding: 15px;
+  background: #00fff7;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #ff00c8;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px;
+  
+}
+.one{
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 60px auto;
+  padding: 60px 20px;
+  max-width: 1000px;
+  border-radius: 20px;
+}
